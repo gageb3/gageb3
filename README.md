@@ -70,6 +70,7 @@ Features:
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
 
+Draggable and Positioning Code
 ```JavaScript
 $(document).ready(function() {
     console.log("Welcome to the Interactive Computer Lab!");
