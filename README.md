@@ -130,3 +130,6 @@ This script adds interactivity to the lab layout using jQuery and jQuery UI.
 - Uses a forEach loop for cleaner, reusable code
 
 - Improves user feedback with template literals and emojis
+
+### Quote
+"Design is not what it looks like, it's how it works."
