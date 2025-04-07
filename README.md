@@ -69,6 +69,7 @@ Features:
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
 <detail>
+
 ### Draggable and Positioning Code:
 ```JavaScript
 $(document).ready(function() {
@@ -129,6 +130,6 @@ $(function () {
 - Uses a forEach loop for cleaner, reusable code
 
 - Improves user feedback with template literals and emojis
-</details>
+</detail>
 ### Quote
 "Design is not what it looks like, it's how it works."
