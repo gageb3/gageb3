@@ -5,7 +5,7 @@ Web Developer and Designer
 --------------------------
 
 <p align="center">
-  <img src="https://i0.wp.com/therebelwalk.com/wp-content/uploads/2024/02/IMG_0436.jpg?resize=1242%2C640&ssl=1" width="250"/>
+  <img src="https://i0.wp.com/therebelwalk.com/wp-content/uploads/2024/02/IMG_0436.jpg?resize=1242%2C640&ssl=1" width="350"/>
 </p>
 
 
