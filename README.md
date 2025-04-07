@@ -70,7 +70,7 @@ Features:
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
 
-Draggable and Positioning Code
+Draggable and Positioning Code:
 ```JavaScript
 $(document).ready(function() {
     console.log("Welcome to the Interactive Computer Lab!");
@@ -94,4 +94,29 @@ $(document).ready(function() {
             );
         }
     });
-}); 
+});
+```
+Here is an interesting adjustment:
+```JavaScript
+$(function () {
+    console.log("👋 Welcome to the Interactive Computer Lab!");
+
+    // Make all draggable elements draggable using a loop
+    const draggableSelectors = [".seat", ".pc", "#door"];
+    draggableSelectors.forEach(selector => {
+        $(selector).draggable({ containment: "#computerLab" });
+    });
+
+    // Show clicked element ID and position
+    $(document).on("click", (event) => {
+        const clickedId = event.target.id;
+        if (!clickedId) return;
+
+        const $element = $("#" + clickedId);
+
+        alert(`🖱️ Clicked: ${clickedId}\nTop: ${$element.position().top}px`);
+        console.log(
+            `🖱️ Clicked: ${clickedId}, Left: ${$element.position().left}px`
+        );
+    });
+});
