@@ -19,7 +19,6 @@ I have learned to code within web development, python, and java. I also have kno
 * 🚀  I'm currently working on [Dev Charlie](http://gageb3.github.io/dev-charlie/)
 * 🧠  I'm learning HTML
 * 🤝  I'm open to collaborating on Anything
-* ⚡  O\_O
 * www.linkedin.com/in/gage-bays-6bb231355
 
 
@@ -69,7 +68,7 @@ Features:
 - May use JS to dynamically generate layout
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
-
+<detail>
 ### Draggable and Positioning Code:
 ```JavaScript
 $(document).ready(function() {
@@ -121,7 +120,7 @@ $(function () {
     });
 });
 ```
-This script adds interactivity to the lab layout using jQuery and jQuery UI.
+<summary>This script adds interactivity to the lab layout using jQuery and jQuery UI.</summary>
 
 - Makes .seat, .pc, and #door elements draggable
 
@@ -130,6 +129,6 @@ This script adds interactivity to the lab layout using jQuery and jQuery UI.
 - Uses a forEach loop for cleaner, reusable code
 
 - Improves user feedback with template literals and emojis
-
+</details>
 ### Quote
 "Design is not what it looks like, it's how it works."
