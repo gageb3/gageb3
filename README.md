@@ -4,7 +4,12 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Web Developer and Designer
 --------------------------
 
+![My Profile Pic](https://i0.wp.com/therebelwalk.com/wp-content/uploads/2024/02/IMG_0436.jpg?resize=1242%2C640&ssl=1)
+
+
 I have learned to code within web development, python, and java. I also have knowledge of databases, cybersecurity, and networking.
+
+
 
 * 🌍  I'm based in Florence, AL
 * ✉️  You can contact me at [gagebays@gmail.com](mailto:gagebays@gmail.com)
