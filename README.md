@@ -12,6 +12,8 @@ I have learned to code within web development, python, and java. I also have kno
 * 🧠  I'm learning HTML
 * 🤝  I'm open to collaborating on Anything
 * ⚡  O\_O
+* www.linkedin.com/in/gage-bays-6bb231355
+
 
 ### Skills
 
