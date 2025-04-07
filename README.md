@@ -120,3 +120,13 @@ $(function () {
         );
     });
 });
+```
+This script adds interactivity to the lab layout using jQuery and jQuery UI.
+
+- Makes .seat, .pc, and #door elements draggable
+
+- Logs and alerts element positions when clicked
+
+- Uses a forEach loop for cleaner, reusable code
+
+- Improves user feedback with template literals and emojis
