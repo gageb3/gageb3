@@ -132,4 +132,6 @@ $(function () {
 - Improves user feedback with template literals and emojis
 </detail>
 
-Quote: "Design is not what it looks like, it's how it works." - Steve Jobs
+### 💬 Quote  
+> “Design is not just what it looks like — it’s how it works.”  
+> — **Steve Jobs**
