@@ -70,62 +70,59 @@ Features:
 - Mascot image and style optional, for personality or flair
 
 <details>
-### <summary>Draggable and Positioning Code (click to expand)</summary>
-```JavaScript
+<summary>🧠 Draggable and Positioning Code (click to expand)</summary>
+
+<h4>Original Version</h4>
+
+<pre><code class="language-javascript">
 $(document).ready(function() {
-    console.log("Welcome to the Interactive Computer Lab!");
-    
-    // Make elements draggable
-    $(".seat").draggable({ containment: "#computerLab" });
-    $(".pc").draggable({ containment: "#computerLab" });
-    $("#door").draggable({ containment: "#computerLab" });
-    
-    // Handle click events to show position
-    $(document).on("click", (event) => {
-        let clickedId = event.target.id;
-        if (clickedId) {
-            alert("Clicked: " + clickedId);
-            let $clickedElement = $('#' + clickedId);
-            alert("Top position: " + $clickedElement.position().top);
-            
-            console.log(
-                "Element: ", clickedId, 
-                "Left position: ", $clickedElement.position().left
-            );
-        }
-    });
+  console.log("Welcome to the Interactive Computer Lab!");
+
+  $(".seat").draggable({ containment: "#computerLab" });
+  $(".pc").draggable({ containment: "#computerLab" });
+  $("#door").draggable({ containment: "#computerLab" });
+
+  $(document).on("click", (event) => {
+    let clickedId = event.target.id;
+    if (clickedId) {
+      alert("Clicked: " + clickedId);
+      let $clickedElement = $('#' + clickedId);
+      alert("Top position: " + $clickedElement.position().top);
+      console.log("Element: ", clickedId, "Left: ", $clickedElement.position().left);
+    }
+  });
 });
-```
-## Here is an interesting adjustment:
-```JavaScript
+</code></pre>
+
+<h4>Refactored Version</h4>
+
+<pre><code class="language-javascript">
 $(function () {
-    console.log("👋 Welcome to the Interactive Computer Lab!");
+  console.log("👋 Welcome to the Interactive Computer Lab!");
 
-    // Make all draggable elements draggable using a loop
-    const draggableSelectors = [".seat", ".pc", "#door"];
-    draggableSelectors.forEach(selector => {
-        $(selector).draggable({ containment: "#computerLab" });
-    });
+  const draggableSelectors = [".seat", ".pc", "#door"];
+  draggableSelectors.forEach(selector => {
+    $(selector).draggable({ containment: "#computerLab" });
+  });
 
-    // Show clicked element ID and position
-    $(document).on("click", (event) => {
-        const clickedId = event.target.id;
-        if (!clickedId) return;
+  $(document).on("click", (event) => {
+    const clickedId = event.target.id;
+    if (!clickedId) return;
 
-        const $element = $("#" + clickedId);
+    const $element = $("#" + clickedId);
 
-        alert(`🖱️ Clicked: ${clickedId}\nTop: ${$element.position().top}px`);
-        console.log(
-            `🖱️ Clicked: ${clickedId}, Left: ${$element.position().left}px`
-        );
-    });
+    alert(`🖱️ Clicked: ${clickedId}\\nTop: ${$element.position().top}px`);
+    console.log(`🖱️ Clicked: ${clickedId}, Left: ${$element.position().left}px`);
+  });
 });
-```
-<summary>This script adds interactivity to the lab layout using jQuery and jQuery UI.</summary>
-- Makes `.seat`, `.pc`, and `#door` elements **draggable**
-- Logs and alerts **element positions**
-- Uses a **`forEach` loop** for reusable code
-- Adds **template literals** and **emojis** for user feedback
+</code></pre>
+
+### Summary of Improvements:
+- Makes <code>.seat</code>, <code>.pc</code>, and <code>#door</code> elements <strong>draggable</strong>  
+- Logs and alerts <strong>element positions</strong>  
+- Uses a <code>forEach</code> loop for cleaner, reusable code  
+- Improves user feedback with <strong>template literals</strong> and <strong>emojis</strong>
+
 </details>
 
 ### 💬 Quote  
