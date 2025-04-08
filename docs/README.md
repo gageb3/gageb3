@@ -68,9 +68,9 @@ Features:
 - May use JS to dynamically generate layout
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
-<detail>
 
-### Draggable and Positioning Code:
+<details>
+### <summary>Draggable and Positioning Code (click to expand)</summary>
 ```JavaScript
 $(document).ready(function() {
     console.log("Welcome to the Interactive Computer Lab!");
@@ -122,14 +122,12 @@ $(function () {
 });
 ```
 <summary>This script adds interactivity to the lab layout using jQuery and jQuery UI.</summary>
+- Makes `.seat`, `.pc`, and `#door` elements **draggable**
+- Logs and alerts **element positions**
+- Uses a **`forEach` loop** for reusable code
+- Adds **template literals** and **emojis** for user feedback
+</details>
 
-- Makes .seat, .pc, and #door elements draggable
-
-- Logs and alerts element positions when clicked
-
-- Uses a forEach loop for cleaner, reusable code
-
-- Improves user feedback with template literals and emojis
-</detail>
-
-Quote: "Design is not what it looks like, it's how it works." - Steve Jobs
+### 💬 Quote  
+> “Design is not just what it looks like — it’s how it works.”  
+> — **Steve Jobs**
