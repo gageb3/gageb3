@@ -69,8 +69,17 @@
         Powered by <a href="https://github.com/zerodevx/zero-md">ZeroMD</a> & <a href="https://getbootstrap.com/">Bootstrap</a>
       </small>
     </footer>
-  </body>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mdElement = document.querySelector('zero-md');
+    mdElement.addEventListener('zero-md-rendered', () => {
+      Prism.highlightAll();
+    });
+  });
+</script>
+</body>
 </html>
+
 
 
     
