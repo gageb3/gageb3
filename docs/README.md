@@ -69,12 +69,12 @@ Features:
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
   
-```JavaScript
+```markdown
 <details>
 <summary>🧠 Draggable and Positioning Code (click to expand)</summary>
 
 <h4>Original Version</h4>
-
+```JavaScript
 <pre><code class="language-javascript">
 $(document).ready(function() {
   console.log("Welcome to the Interactive Computer Lab!");
