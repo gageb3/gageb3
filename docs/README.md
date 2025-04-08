@@ -68,7 +68,7 @@ Features:
 - May use JS to dynamically generate layout
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
-
+```JavaScript
 <details>
 <summary>🧠 Draggable and Positioning Code (click to expand)</summary>
 
@@ -92,6 +92,8 @@ $(document).ready(function() {
     }
   });
 });
+
+```
 </code></pre>
 
 <h4>Refactored Version</h4>
@@ -117,6 +119,7 @@ $(function () {
 });
 </code></pre>
 
+```
 ### Summary of Improvements:
 - Makes <code>.seat</code>, <code>.pc</code>, and <code>#door</code> elements <strong>draggable</strong>  
 - Logs and alerts <strong>element positions</strong>  
