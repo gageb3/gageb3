@@ -69,9 +69,8 @@ Features:
 - Designed for responsive viewing of physical computer lab layout
 - Mascot image and style optional, for personality or flair
   
-```markdown
-<details>
-<summary>🧠 Draggable and Positioning Code (click to expand)</summary>
+
+```
 
 <h4>Original Version</h4>
 ```JavaScript
@@ -119,6 +118,9 @@ $(function () {
 });
 </code></pre>
 ```
+
+<details>
+<summary>🧠 Draggable and Positioning Code (click to expand)</summary>
 
 ### Summary of Improvements:
 - Makes <code>.seat</code>, <code>.pc</code>, and <code>#door</code> elements <strong>draggable</strong>  
